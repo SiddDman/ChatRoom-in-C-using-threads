@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <signal.h>
-#include <unistd.h>
-// to read(),write() and close()
+#include <unistd.h>// to read(),write() and close()
 #include <sys/types.h>//#include <sys/types.h> -> this contain definatoins of number of data types usen in system call
 // ans also used for #include <sys/socket.h> and #include <netinet/in.h>
 #include <sys/socket.h> //#include <sys/socket.h> -> contain defination and stuctures such as 'sockaddr'
